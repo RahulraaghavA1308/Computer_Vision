@@ -10,7 +10,6 @@ cv.imshow('canny', canny)
 contours ,hierarchies =cv.findContours(canny,cv.RETR_LIST,cv.CHAIN_APPROX_NONE)
 print(f'{len(contours)}  is the no of contours')
 
-
 #cv.waitkey(0)}
 
 while True:    
